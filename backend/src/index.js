@@ -28,5 +28,4 @@ const productsRouter = require('./routes/productsRouter');
 server.use('/products', productsRouter);
 
 server.listen('2022',
-  // eslint-disable-next-line no-console
-  () => console.log(`Server is running in ${chalk.yellow('localhost:2022')}`));
+  () => debug(`Server is running in ${chalk.yellow('localhost:2022')}`));

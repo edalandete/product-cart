@@ -47,7 +47,6 @@ function Cart({ dispatch, cart }) {
         {
           cart.map((product) => (
             <li className="cart-list__item">
-              {/* <img src={product.productPoster} alt={product.productName} /> */}
               <div className="item item--left">
                 {`${product.productName} x${product.quantity}`}
               </div>
